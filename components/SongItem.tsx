@@ -1,3 +1,5 @@
+// Componente de tarjeta de canción
+
 "use client";
 
 import Image from "next/image";

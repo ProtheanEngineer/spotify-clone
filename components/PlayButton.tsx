@@ -1,3 +1,5 @@
+// Componente del botón de play
+
 import { FaPlay } from "react-icons/fa";
 
 const PlayButton = () => {

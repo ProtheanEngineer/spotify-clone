@@ -1,3 +1,5 @@
+// Hook para obtener la información del usuario
+
 import { useEffect, useState, createContext, useContext } from 'react';
 import {
   useUser as useSupaUser,

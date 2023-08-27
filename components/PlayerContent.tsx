@@ -1,3 +1,5 @@
+// Contenido del reproductor cuando reproduces una canción
+
 "use client";
 
 import useSound from "use-sound";

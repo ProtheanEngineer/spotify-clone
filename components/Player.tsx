@@ -1,3 +1,5 @@
+// Componmente del reproductor de música
+
 "use client";
 
 import usePlayer from "@/hooks/usePlayer";

@@ -1,3 +1,5 @@
+// Componente del modal de autentificación
+
 "use client";
 
 import React, { useEffect } from 'react';

@@ -1,3 +1,5 @@
+// Componente de la librería de canciones
+
 "use client";
 
 import { TbPlaylist } from "react-icons/tb";
@@ -26,6 +28,7 @@ const Library: React.FC<LibraryProps> = ({
 
   const onPlay = useOnPlay(songs);
 
+  // Todas estas funcionalidades únicamente se pueden realizar si el usuario está loggeado. De lo isConstructorDeclaration, abrirá el modal de autentificación
   const onClick = () => {
     if (!user) {
       return authModal.onOpen();
@@ -58,6 +61,7 @@ const Library: React.FC<LibraryProps> = ({
           "
         />
       </div>
+      {/* Mapeo de todas las canciones en la bbdd */}
       <div className="flex flex-col gap-y-2 mt-4 px-3">
       {songs.map((item) => (
           <MediaItem 

@@ -1,3 +1,5 @@
+// Hook para abrir y cerrar el modal de suscripción
+
 import { create } from 'zustand';
 
 interface SubscribeModalStore {

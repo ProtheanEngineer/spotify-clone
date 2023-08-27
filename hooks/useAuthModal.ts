@@ -1,3 +1,5 @@
+// Hook donde se abre o se cierra el modal para autentificarse
+
 import { create } from 'zustand';
 
 interface AuthModalStore {

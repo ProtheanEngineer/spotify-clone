@@ -1,3 +1,5 @@
+// Hook para abrir o cerrar el modal de carga de canción
+
 import { create } from 'zustand';
 
 interface UploadModalStore {

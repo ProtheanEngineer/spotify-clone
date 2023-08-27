@@ -1,3 +1,5 @@
+// Input buscador de canciones
+
 "use client";
 
 import qs from "query-string";

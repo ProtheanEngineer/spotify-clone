@@ -1,3 +1,5 @@
+// Elemento dentro del apartado de canciones
+
 "use client";
 
 import Image from "next/image";
@@ -49,6 +51,7 @@ const MediaItem: React.FC<MediaItemProps> = ({
           overflow-hidden
         "
       >
+        {/* La imagen de la cancion */}
         <Image
           fill
           src={imageUrl || "/images/music-placeholder.png"}
@@ -57,7 +60,9 @@ const MediaItem: React.FC<MediaItemProps> = ({
         />
       </div>
       <div className="flex flex-col gap-y-1 overflow-hidden">
+        {/* El título de la canción */}
         <p className="text-white truncate">{data.title}</p>
+        {/* El nombre del autor */}
         <p className="text-neutral-400 text-sm truncate">
           By {data.author}
         </p>

@@ -1,3 +1,5 @@
+// Componente del botón de like
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -53,6 +55,7 @@ const LikeButton: React.FC<LikeButtonProps> = ({
       return authModal.onOpen();
     }
 
+    // Si la canción ya tiene el me gusta del usuario, le quita el me gusta
     if (isLiked) {
       const { error } = await supabaseClient
         .from('liked_songs')

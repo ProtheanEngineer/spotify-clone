@@ -1,3 +1,5 @@
+// Componente de los dos elementos dentro del sidebar
+
 import Link from 'next/link';
 import { IconType } from 'react-icons';
 import { twMerge } from 'tailwind-merge';

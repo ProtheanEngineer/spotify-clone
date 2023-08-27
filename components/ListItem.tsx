@@ -1,3 +1,5 @@
+// Componente de los elementos dentro de la librería de canciones
+
 "use client";
 
 import Image from "next/image";

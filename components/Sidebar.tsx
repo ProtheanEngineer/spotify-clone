@@ -1,3 +1,5 @@
+// Componente del sidebar de arriba a la izquierda con el home y el search
+
 "use client";
 
 import { HiHome } from "react-icons/hi";

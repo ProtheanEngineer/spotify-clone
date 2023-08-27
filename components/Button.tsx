@@ -1,3 +1,5 @@
+// Componente de botón
+
 import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 

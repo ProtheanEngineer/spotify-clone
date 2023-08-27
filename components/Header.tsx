@@ -1,3 +1,5 @@
+// Componente del Header
+
 "use client";
 
 import { twMerge } from "tailwind-merge";
@@ -136,6 +138,7 @@ const Header: React.FC<HeaderProps> = ({
             </div>
           ) : (
             <>
+            {/* Botón para logearse o registrarse */}
               <div>
                 <Button 
                   onClick={authModal.onOpen} 

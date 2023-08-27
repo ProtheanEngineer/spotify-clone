@@ -1,3 +1,5 @@
+// Modal de suscripción
+
 "use client";
 
 import React, { useState } from 'react';
